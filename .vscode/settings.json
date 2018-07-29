@@ -1,0 +1,9 @@
+{
+    "aliosStudio.sdkPath": "/home/felix/.aos/AliOS-Things",
+    "files.associations": {
+        "stdio.h": "c",
+        "iot_import.h": "c",
+        "unistd.h": "c",
+        "cjson.h": "c"
+    }
+}

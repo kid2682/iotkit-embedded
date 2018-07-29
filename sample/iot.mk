@@ -70,6 +70,10 @@ ifneq (,$(filter -DSUBDEVICE_ENABLED,$(CFLAGS)))
 TARGET                += subdev-example
 SRCS_subdev-example   += subdev/subdev-example.c \
                          subdev/subdev_example_api.c
+TARGET                += gateway-example
+SRCS_gateway-example   += gateway/gateway-example.c
+TARGET                += gateway-sub-example
+SRCS_gateway-sub-example   += gateway-sub/gateway-sub-example.c
 endif
 
 ifneq (,$(filter -DCLOUD_CONN_ENABLED,$(CFLAGS)))   
